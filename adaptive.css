@@ -1,0 +1,218 @@
+@media only screen and (max-width: 600px) {
+
+  .header-logo {
+    display: none;
+  }
+
+  .header-list {
+    width: 100%;
+  }
+
+  .header-list ul {
+    width: 100%;
+    flex-wrap: wrap;
+  }
+
+  .header-list ul li{
+    width: 100%;
+    text-align: center;
+    border: 1px solid silver;
+    margin-bottom: 10px;
+  }
+
+  .start-section {
+    padding: 50px 0;
+  }
+
+  .start-text {
+    padding: 50px 0;
+  }
+
+  .start-text p {
+    font-size: 22px;
+  }
+
+  .main-bottom ul {
+    flex-wrap: wrap;
+  }
+
+  .main-bottom ul li {
+    width: 100%;
+  }
+
+  .text-info h1{
+    font-size: 22px;
+  }
+
+  .team-bottom ul {
+    flex-wrap: wrap;
+  }
+
+  .scills-bottom {
+    padding-top: 10px;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  .stat {
+    width: 100%;
+  }
+
+  .progress {
+    margin: auto;
+    margin-top: 100px;
+  }
+
+  .portfolio-list ul {
+    flex-wrap: wrap;
+  }
+
+  .portfolio-list ul li {
+    width: 100%;
+    margin-bottom: 10px;
+  }
+
+  .portfolio-list ul li button{
+    width: 100%;
+  }
+
+  .projects {
+    flex-wrap: wrap;
+  }
+
+  .project {
+    width: 100%;
+  }
+
+  .reviews-bottom ul {
+    flex-wrap: wrap;
+  }
+
+  .reviews-bottom ul li {
+    width: 100%;
+  }
+
+  .form-section {
+    padding-bottom: 20px;
+  }
+
+  .form-bottom form {
+    flex-wrap: wrap;
+  }
+
+  .form-bottom form #input1,
+  .form-bottom form #input2,
+  .form-bottom form #textarea {
+    width: 100%;
+    margin-top: 0;
+    margin-bottom: 20px;
+  }
+
+  .btn {
+    padding: 10px 0;
+  }
+
+  footer {
+    display: none;
+  }
+}
+
+@media only screen and (min-width: 601px) and (max-width: 1500px) {
+  .header-logo {
+    display: none;
+  }
+
+  .header-list {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .header-list ul {
+    width: 100%;
+  }
+
+  .header-list ul li{
+    padding: 8px;
+  }
+
+  .start-text p {
+    font-size: 24px;
+  }
+
+  .main-bottom ul {
+    flex-wrap: wrap;
+  }
+
+  .main-bottom ul li {
+    width: 46%;
+  }
+
+  .text-info h1{
+    font-size: 28px;
+  }
+
+  .team-bottom ul {
+    flex-wrap: wrap;
+  }
+
+  .team-bottom ul li {
+    width: 49%;;
+  }
+
+  .scills-bottom {
+    padding-top: 10px;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  .stat {
+    width: 46%;
+  }
+
+  .progress {
+    margin: auto;
+    margin-top: 100px;
+  }
+
+  .portfolio-list ul {
+    width: 80%;
+  }
+
+  .portfolio-list ul li {
+    width: 100%;
+    margin-bottom: 10px;
+  }
+
+  .portfolio-list ul li button{
+    width: 80%;
+  }
+
+  .reviews-bottom ul {
+    flex-wrap: wrap;
+  }
+
+  .reviews-bottom ul li {
+    width: 100%;
+  }
+
+  .form-bottom form {
+    flex-wrap: wrap;
+  }
+
+  .form-bottom form #input1,
+  .form-bottom form #input2,
+  .form-bottom form #textarea {
+    width: 100%;
+    margin-top: 0;
+    margin-bottom: 20px;
+  }
+
+  footer ul {
+    width: 95%;
+  }
+
+  .btn {
+    padding: 50px 0;
+  }
+}
